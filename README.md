@@ -1,0 +1,2 @@
+# GodModeSystem
+Ein Godmode Command.
