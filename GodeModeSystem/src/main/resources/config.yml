@@ -1,0 +1,64 @@
+# =============================================
+#          GodModeSystem - Config.yml
+# =============================================
+# Diese Datei enthält alle einstellbaren Nachrichten
+# und Parameter für das GodMode-System.
+# Die Nachrichten können angepasst werden, um den Stil
+# und die Sprache des Servers zu entsprechen.
+# =============================================
+
+messages:
+
+  # Nachricht, wenn ein Spieler versucht, den GodMode zu verwenden,
+  # aber nicht die erforderlichen Berechtigungen hat.
+  no_permission: "&cDu hast keine &4Berechtigung&c, dies zu tun!"
+
+  # Nachricht, wenn der Befehl von der Konsole oder einem anderen
+  # Nicht-Spieler (CommandBlock etc.) gesendet wird.
+  not_a_player: "&cDu musst ein Spieler sein!"
+
+  # Nachricht, die angezeigt wird, wenn der Spieler den Befehl
+  # falsch verwendet, z.B. mehr als ein Argument eingibt.
+  wrong_usage: "&cBitte nutze &e/godmode &8<&b&lSpielerName&8>"
+
+  # Nachricht, die erscheint, wenn der Spielername, der als Ziel
+  # eingegeben wurde, nicht auf dem Server online ist.
+  player_not_found: "&cDer Spieler &b&l%target% &cist nicht vorhanden!"
+
+  # Nachricht, die angezeigt wird, wenn ein Spieler seinen eigenen
+  # GodMode aktiviert.
+  godmode_enabled_self: "&7Du hast dein &e&lGodMode &a&lAktiviert&7."
+
+  # Nachricht, die angezeigt wird, wenn ein Spieler seinen eigenen
+  # GodMode deaktiviert.
+  godmode_disabled_self: "&7Du hast dein &e&lGodMode &c&lDeaktiviert&7."
+
+  # Nachricht, die angezeigt wird, wenn ein Spieler den GodMode
+  # eines anderen Spielers aktiviert.
+  godmode_enabled_other: "&7Du hast &b&l%target% &e&lGodmode &a&lAktiviert&7."
+
+  # Nachricht, die angezeigt wird, wenn ein Spieler den GodMode
+  # eines anderen Spielers deaktiviert.
+  godmode_disabled_other: "&7Du hast &b&l%target% &e&lGodmode &c&lDeaktiviert&7."
+
+  # Nachricht, die an den Zielspieler gesendet wird, wenn ein anderer
+  # Spieler seinen GodMode aktiviert.
+  target_godmode_enabled: "&7Dein &e&lGodMode &7wurde &a&lAktiviert&7."
+
+  # Nachricht, die an den Zielspieler gesendet wird, wenn ein anderer
+  # Spieler seinen GodMode deaktiviert.
+  target_godmode_disabled: "&7Dein &e&lGodMode &7wurde &c&lDeaktiviert&7."
+
+permissions:
+  # Berechtigung für Spieler, die den GodMode-Befehl verwenden können.
+  use_godmode: "godmodesystem.command.godmode"
+
+# =============================================
+# Hinweise:
+# - Der Platzhalter %target% wird durch den Namen des Zielspielers ersetzt.
+# - Farbcodes können mit '&' verwendet werden (z.B. &c für rot).
+# - Du kannst diese Nachrichten anpassen, um sie in anderen Sprachen
+#   oder mit einem eigenen Stil zu versehen.
+# - Stelle sicher, dass du die Berechtigungen in deinem Permissions-System
+#   korrekt konfiguriert hast (z.B. PermissionsEx, LuckPerms).
+# =============================================

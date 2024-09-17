@@ -1,0 +1,13 @@
+name: GodeModeSystem
+version: '1.0.1'
+main: de.itsuhr.godeModeSystem.GodeModeSystem
+api-version: '1.21'
+load: STARTUP
+authors: [ ItsUhr ]
+description: Ein Minecraft Server Plugin.
+website: github.com/itsuhr
+commands:
+  godmode:
+    description: damit bist du unsterblich.
+    usage: /godmode <player>
+    aliases: [god]
